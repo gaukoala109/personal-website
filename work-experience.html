@@ -10,11 +10,20 @@
   </head>
   <body>
     <nav class="navbar">
-      <a href="index.html"><img class="logo" src="./images/q icon.png"></a>
-      <a class="page" href="about.html">About</a>
-      <a class="page active" href="work-experience.html">Work Experience</a>
-      <a class="page" href="projects.html">Projects</a>
-      <a class="page" href="contact.html">Contact</a>
+      <a href="index.html"><img class="logo" src="images/q icon.png"></a>
+      <a class="hamburger-button" href="#">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <div class="links">
+        <ul>
+          <li><a class="page" href="about.html">About</a></li>
+          <li><a class="page active" href="work-experience.html">Work Experience</a></li>
+          <li><a class="page" href="projects.html">Projects</a></li>
+          <li><a class="page" href="contact.html">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <div class="page-container">
@@ -139,8 +148,6 @@
         </div>
       </div>
       
-      
-      
     </div>
 
     <footer>
@@ -148,5 +155,7 @@
         Copyright &copy; Quoc Le. All Rights Reserved.
       </p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
